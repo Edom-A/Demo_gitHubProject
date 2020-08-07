@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [user api testing]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="user get post put delete testing(failed)" verbose="0">
+    <classes>
+      <class name="com.gorest.api.UserApi.GetApi">
+        <methods>
+          <include name="testResponseById" invocation-numbers="0 1 2 3 4"/>
+          <include name="testFirstName" invocation-numbers="0 1 2 3 4"/>
+          <include name="testEmail" invocation-numbers="0 1 2 3 4"/>
+          <include name="testSetUp"/>
+          <include name="testLastName" invocation-numbers="0 1 2 3 4"/>
+        </methods>
+      </class> <!-- com.gorest.api.UserApi.GetApi -->
+    </classes>
+  </test> <!-- user get post put delete testing(failed) -->
+</suite> <!-- Failed suite [user api testing] -->

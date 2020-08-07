@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="user api testing">
+    <test name="user get post put delete testing">
+        <classes>
+            <class name="com.gorest.api.UserApi.GetApi"></class>
+            <class name="com.gorest.api.UserApi.PostUserAPI"></class>
+
+
+        </classes>
+
+
+    </test>
+
+
+</suite>
